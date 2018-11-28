@@ -7,10 +7,16 @@
     "type": "git",
     "url": "git+https://github.com/OkciD/team02_hackathon_2018_static.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/OkciD/team02_hackathon_2018_static/issues"
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js --progress --display-error-details"
   },
-  "homepage": "https://github.com/OkciD/team02_hackathon_2018_static#readme"
+  "homepage": "https://github.com/OkciD/team02_hackathon_2018_static#readme",
+  "dependencies": {
+    "clean-webpack-plugin": "1.0.0",
+    "html-webpack-plugin": "4.0.0-beta.3",
+    "webpack": "4.26.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "3.1.2"
+  }
 }
