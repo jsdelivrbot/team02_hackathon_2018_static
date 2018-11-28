@@ -1,0 +1,16 @@
+{
+  "name": "team02_hackathon_2018_static",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OkciD/team02_hackathon_2018_static.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OkciD/team02_hackathon_2018_static/issues"
+  },
+  "homepage": "https://github.com/OkciD/team02_hackathon_2018_static#readme"
+}
